@@ -1,0 +1,45 @@
+{
+  "@@locale": "en",
+  "appTitle": "Learning Dashboard",
+
+  "loginTitle": "Welcome back",
+  "loginSubtitle": "Sign in to continue learning",
+  "emailLabel": "Email",
+  "passwordLabel": "Password",
+  "loginButton": "Login",
+  "emailRequired": "Please enter your email",
+  "emailInvalid": "Please enter a valid email",
+  "passwordRequired": "Please enter your password",
+  "passwordTooShort": "Password must be at least {min} characters",
+  "@passwordTooShort": { "placeholders": { "min": { "type": "int" } } },
+
+  "coursesTitle": "My Courses",
+  "logout": "Logout",
+  "offlineBanner": "You're offline. Showing saved courses.",
+  "emptyCoursesTitle": "No courses yet",
+  "emptyCoursesMessage": "Courses you enrol in will show up here.",
+  "retry": "Retry",
+  "byInstructor": "by {name}",
+  "@byInstructor": { "placeholders": { "name": { "type": "String" } } },
+  "lessonsCount": "{count, plural, =1{1 lesson} other{{count} lessons}}",
+  "@lessonsCount": { "placeholders": { "count": { "type": "int" } } },
+  "progressPercent": "{percent}%",
+  "@progressPercent": { "placeholders": { "percent": { "type": "int" } } },
+  "continueButton": "Continue",
+
+  "lessonsProgress": "{completed} of {total} lessons completed",
+  "@lessonsProgress": {
+    "placeholders": { "completed": { "type": "int" }, "total": { "type": "int" } }
+  },
+  "lessonsHeader": "Lessons",
+  "lessonCompleted": "Completed",
+  "lessonPending": "Pending",
+  "markComplete": "Mark complete",
+  "courseFinished": "Course completed 🎉",
+
+  "errorNetwork": "No internet connection. Please check your network and try again.",
+  "errorServer": "Something went wrong on our side. Please try again.",
+  "errorCache": "Couldn't read saved data on this device.",
+  "errorInvalidCredentials": "Incorrect email or password.",
+  "errorNotFound": "We couldn't find what you were looking for."
+}
